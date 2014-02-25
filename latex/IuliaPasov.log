@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2014.2.23)  23 FEB 2014 19:15
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.5.31)  25 FEB 2014 18:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**My_CV.tex
-(./My_CV.tex
+**IuliaPasov.tex
+(./IuliaPasov.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
 aded.
@@ -344,8 +344,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 Package hyperref Info: Option `breaklinks' set `true' on input line 44.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 44.
 
-(./My_CV.aux)
-\openout1 = `My_CV.aux'.
+No file IuliaPasov.aux.
+\openout1 = `IuliaPasov.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
@@ -364,7 +364,7 @@ LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
 LaTeX Font Info:    ... okay on input line 44.
 LaTeX Font Info:    Try loading font information for T1+lmr on input line 44.
- (/usr/share/texmf/tex/latex/lm/t1lmr.fd
+(/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -462,17 +462,13 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
 LaTeX Info: Redefining \nameref on input line 44.
-
-(./My_CV.out) (./My_CV.out)
 \@outlinefile=\write3
-\openout3 = `My_CV.out'.
+\openout3 = `IuliaPasov.out'.
 
-\pagenumberwidth=\skip68
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 44.
 \makecvtitledetailsbox=\box29
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 46.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 46.
@@ -499,8 +495,8 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 46.
 \makecvtitlepicturebox=\box30
-\makecvtitledetailswidth=\skip69
-\makecvtitlepicturewidth=\skip70
+\makecvtitledetailswidth=\skip68
+\makecvtitlepicturewidth=\skip69
 
 Underfull \hbox (badness 10000) in paragraph at lines 46--46
 
@@ -522,23 +518,35 @@ Package microtype Info: Character `029' is missing
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 200.
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 264.
  [2]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 264.
- (./My_CV.aux)
+ (./IuliaPasov.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 264.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 264.
-Package rerunfilecheck Info: File `My_CV.out' has not changed.
-(rerunfilecheck)             Checksum: D92A36E9649F360A8B64134C39A67F20;611.
+
+
+Package rerunfilecheck Warning: File `IuliaPasov.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `IuliaPasov.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D92A36E9649F360A8B64134C39A67F20;611.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 9922 strings out of 495059
- 143600 string characters out of 3182030
- 372829 words of memory out of 3000000
- 12916 multiletter control sequences out of 15000+200000
+ 9908 strings out of 495059
+ 143489 string characters out of 3182030
+ 372706 words of memory out of 3000000
+ 12908 multiletter control sequences out of 15000+200000
  66482 words of font info for 72 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 42i,12n,67p,1278b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,11n,67p,1283b,332s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/en
 c/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/s
 hare/texmf/fonts/type1/public/lm/lmcsc10.pfb></usr/share/texmf/fonts/type1/publ
@@ -547,10 +555,10 @@ texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 sso17.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
-Output written on My_CV.pdf (2 pages, 176862 bytes).
+Output written on IuliaPasov.pdf (2 pages, 176056 bytes).
 PDF statistics:
- 90 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 65 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
  10 named destinations out of 1000 (max. 500000)
- 21561 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 21505 words of extra memory for PDF output out of 24883 (max. 10000000)
 
