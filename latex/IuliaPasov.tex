@@ -14,9 +14,9 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \documentclass[11pt,a4paper,sans]{moderncv}
 
@@ -28,9 +28,9 @@
 \usepackage[scale=0.85]{geometry} % Reduce document margins
 \setlength{\hintscolumnwidth}{3.5cm}
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION SECTION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \firstname{Iulia}
 \familyname{Pa\c{s}ov}
@@ -39,26 +39,37 @@
 \address{Bucharest}{Romania}
 \extrainfo{(+4) 0746 183 944 \\ iulia.pasov@gmail.com}
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \begin{document}
 
 \makecvtitle
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %\section{Personal Information}
 %\cventry{Date of Birth}{July 19\textsuperscript{th} 1987}{}{}{}{}
 %\cventry{Place of Birth}{Drobeta Turnu-Severin, Romania}{}{}{}{}
 %\cventry{Nationality}{Romanian}{}{}{}{}
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \section{Experience}
-\cventry{April 2013--Present}
+
+\cventry{December 2014-present}
+{Big Data \& MAchine Learning Engineer}{\textsc{Avira Soft}}{Bucharest}{Romania}
+{\textbf{Data Science Team} \\
+    \textbf{Responsibilities:} \\
+    - data aquisition, data preparation, data analysis \\
+    - building and implementing models from data \\
+    - using data models to classify data or predict behaviors \\
+    \textbf{Keywords}: Machine Learning, Data Mining, Big Data, Data Science, 
+    Natural Language Processing, Hadoop, Spark, Hive, Couchbase, Scala, Python }
+
+\cventry{April 2013-December 2014}
 {R\&D Software Engineer}{\textsc{Eau de Web}}{Bucharest}{Romania}
 {Projects: \\ 
 \textbf{ $\bullet$ European Environmental Agency (EEA) Website Services } \\ 
@@ -66,9 +77,11 @@
 -build a new Advanced Search tool for the EEA website (http://www.eea.europa.eu), 
 synchronized with a SPARQL endpoint, to support queries on linked data \\ 
 -develop a river plugin for ElasticSearch to harvest data from the EEA endpoint \\
-\textbf{Keywords}: Semantic Web, Linked Data, RDF, SPARQL, Virtuoso, ElasticSearch, Open Data, Big Data, JAVA, Jena \\
+\textbf{Keywords}: Semantic Web, Linked Data, RDF, SPARQL, Virtuoso, 
+ElasticSearch, Open Data, Big Data, JAVA, Jena \\
 \textbf{ $\bullet$ State of the Environment Reporting Information System (SERIS) } \\
-\textbf{Responsibilities}: develop a semantically relevant mapping to convert the SERIS database (PostgreSQL) 
+\textbf{Responsibilities}: develop a semantically relevant mapping to convert 
+the SERIS database (PostgreSQL) 
 to RDF using relevant W3C recommended namespaces  \\
 \textbf{Keywords}: Semantic Web, RDF, PostgreSQL, Python\\ 
 \textbf{ $\bullet$ Digital Agenda Scoreboard } \\ 
@@ -107,17 +120,21 @@ Programming Paradigms (2010-2011)  \\
 {Intern}
 {\textsc{Semsoft}}
 {Rennes}{France}
-{Keywords: Complex Data Reconciliation, Java,  Knowledge Representation, Natural Language Processing, Normalization, RDFS, OWL, SPARQL. \\ 
+{Keywords: Complex Data Reconciliation, Java,  Knowledge Representation, 
+    Natural Language Processing, Normalization, RDFS, OWL, SPARQL. \\ 
 \textbf{Responsibilities:} \\ 
 - desig a representation for SPARQL queries (disjunctive form). \\ 
 - desig algorithms to normalize existing SPARQL queries. \\ 
-- create a reconciliation module for multiple databases (RDFS+) and algorithms for text, numbers and complex data reconciliation.}
+- create a reconciliation module for multiple databases (RDFS+) and algorithms 
+for text, numbers and complex data reconciliation.}
 
-%\cventry{Oct 2010--Jun 2011}{Academic Relations Officer}{\textsc{AI-MAS Winter Olympics}}{Bucharest}{Romania}{Manage the interaction with the academic partners of the event, both from Romania and abroad}
+%\cventry{Oct 2010--Jun 2011}{Academic Relations Officer}{\textsc{AI-MAS Winter 
+%Olympics}}{Bucharest}{Romania}{Manage the interaction with the academic 
+%partners of the event, both from Romania and abroad}
 
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 %	EDUCATION SECTION
-%----------------------------------------------------------------------------------------
+%------------------------------------------------------------------------------
 
 \newpage
 \section{Education}
@@ -166,21 +183,24 @@ Programming Paradigms (2010-2011)  \\
 \section{Skills}
 
 \cventry{}{Languages}{}{}{}{}
-\cvitem{Proficient}{\textsc{Java, C++, RDF, XML}}
-\cvitem{Prior experience}{\textsc{C,  C\#,  PYTHON, JavaScript, Prolog, Scheme, R}}
+\cvitem{Proficient}{\textsc{Python, Scala}}
+\cvitem{Prior experience}{\textsc{Java, C,  C\#, C++, JavaScript, R, Prolog, 
+Scheme, RDF}}
 
-\cventry{}{Databases}{}{}{}{}
-\cvitem{Proficient}{\textsc{Virtuoso}}
-\cvitem{Prior experience}{\textsc{MySQL}}
+\cventry{}{Databases \& Data Warehouses}{}{}{}{}
+\cvitem{Proficient}{\textsc{Virtuoso, Hive}}
+\cvitem{Prior experience}{\textsc{MySQL, MongoDB, Couchbase}}
 %\cvitem{Procedural}{\textsc{C}(proficient)}
-%\cvitem{Object Oriented}{\textsc{Java}(proficient)\textsc{, C++}(proficient),\textsc{ C\#}(prior experience)}
+%\cvitem{Object Oriented}{\textsc{Java}(proficient)\textsc{, C++}(proficient),
+%\textsc{ C\#}(prior experience)}
 %\cvitem{Logic}{\textsc{Prolog}(prior experience)}
 %\cvitem{Functional}{\textsc{Scheme}(proficient),\textsc{Haskell}(proficient)}
 %\cvitem{Scripting}{\textsc{JavaScript}(prior experience)}
 
 \cventry{}{Tools}{}{}{}{}
-\cvitem{Proficient}{\textsc{Git, Elasticsearch}}
-\cvitem{Prior Experience}{\textsc{Subversion, Virtualenv, Jenkins, Weka, Elasticsearch, Jena, RDFLib, Elda, JQuery, Django, Zope}}
+\cvitem{Proficient}{\textsc{Git, Elasticsearch, Kibana}}
+\cvitem{Prior Experience}{\textsc{Subversion, Virtualenv, Jenkins, Weka, 
+Elasticsearch, Jena, RDFLib, Elda, JQuery, Django, Zope}}
 
 %\cvitem{Scientific/Statistics}{Matlab, R, Weka}
 %\cvitem{Ontologies}{Prot\'eg\'e}
@@ -234,7 +254,7 @@ Programming Paradigms (2010-2011)  \\
 %\cvlistdoubleitem{Reading}{Running}
 
 \section{Updated}
-\cvitem{}{February 23$^{rd}$, 2014}
+\cvitem{}{June 11$^{th}$, 2015}
 
 %\newpage
 
